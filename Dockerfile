@@ -128,6 +128,6 @@ RUN set -ex; \
 		\) -exec rm -rf '{}' +; \
 	rm -f get-pip.py
 
-RUN pip install jinja2-cli
+RUN pip install j2cli
 
 CMD ["sh"]
